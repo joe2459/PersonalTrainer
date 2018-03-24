@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Personal Trainer</string>
+    <string name="action_settings">Settings</string>
+    <string name="SignInTitle">Sign In</string>
+    <string name="LogInButton">Log In</string>
+    <string name="SuccessfulLogin">Successfully logged in</string>
+    <string name="UnsuccessfulLogin">Failed to log in</string>
+    <string name="UserName">jdoe</string>
+    <string name="Password">welcome1</string>
+</resources>
+
