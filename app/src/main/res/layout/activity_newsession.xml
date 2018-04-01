@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/NewSessionPage">
+
+
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="com.bignerdranch.android.personaltrainer.LoginFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/NewSessionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:text="@string/NewSessionText" />
+
+    <EditText
+        android:id="@+id/CustomerNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/CustomerNameSession"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/DateNewSessionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/DateNewSession"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/StartTimeNewSessionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/CustomerNewSessionStart"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/EndTimeNewSessionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/CustomerNewSessionEnd"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/CreditCardEditTextNewSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/CreditCardNewSession"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        />
+    <Button
+        android:id="@+id/SubmitButtonNewSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/CustomerNewSessionPay"
+        />
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ViewSessionsPage">
+
+    <fragment
+        android:id="@+id/fragment6"
+        android:name="com.bignerdranch.android.personaltrainer.LoginFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ViewSessionsTexView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:text="@string/ViewSessionsText" />
+    <TextView
+        android:id="@+id/ViewSessionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/ViewSessionsDate" />
+
+    <TextView
+        android:id="@+id/ViewSessionCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="JON DOE: 10:00PM - 11:00PM" />
+
+    <CheckBox
+        android:id="@+id/ViewSessionSolved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="@string/ViewSessionsLabel"/>
+
+    <TextView
+        android:id="@+id/ViewSessionCustomer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="JILL DOE: 10:00PM - 11:00PM" />
+
+    <CheckBox
+        android:id="@+id/ViewSessionSolved2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="@string/ViewSessionsLabel"/>
+
+    <TextView
+        android:id="@+id/ViewSessionDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/ViewSessionsDate2" />
+
+    <TextView
+        android:id="@+id/ViewSessionCustomer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="JOHN DOE: 10:00PM - 11:00PM" />
+
+    <CheckBox
+        android:id="@+id/ViewSessionSolved3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="@string/ViewSessionsLabel"/>
+
+    <TextView
+        android:id="@+id/ViewSessionDate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/ViewSessionsDate3" />
+
+    <TextView
+        android:id="@+id/ViewSessionCustomer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="JANE DOE: 10:00PM - 11:00PM" />
+
+    <CheckBox
+        android:id="@+id/ViewSessionSolved4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="@string/ViewSessionsLabel"/>
+
+
+
+</LinearLayout>

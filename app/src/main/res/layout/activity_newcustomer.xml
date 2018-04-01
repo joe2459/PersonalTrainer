@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/NewCustomerPage">
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.bignerdranch.android.personaltrainer.LoginFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/NewCustomerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:text="@string/NewCustomerText" />
+
+    <EditText
+        android:id="@+id/FirstNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/FirstName"
+        android:layout_marginTop="30dp"
+        />
+
+        <EditText
+        android:id="@+id/LastNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/LastName"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/AgeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Age"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        />
+
+    <EditText
+        android:id="@+id/CreditCardEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/CreditCard"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        />
+
+    <Button
+        android:id="@+id/TakePhotoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/TakePhoto"
+        />
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/NewCustomerSubmit"
+        />
+
+</LinearLayout>

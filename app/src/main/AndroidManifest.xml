@@ -20,6 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ManageActivity">
+        </activity>
+        <activity android:name=".NewCustomerActivity">
+        </activity>
+        <activity android:name=".ViewCustomersActivity">
+        </activity>
+        <activity android:name=".NewSessionActivity">
+        </activity>
+        <activity android:name=".ViewSessionsActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -3,10 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:id="@+id/LoginView">
+
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/SignInText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/SignInTitle"
@@ -14,7 +16,7 @@
 
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/UserNameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="320dp"
@@ -22,7 +24,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/PasswordEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="320dp"
@@ -30,9 +32,10 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/SignInButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/LogInButton" />
+
 
 </LinearLayout>

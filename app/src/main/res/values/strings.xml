@@ -7,5 +7,35 @@
     <string name="UnsuccessfulLogin">Failed to log in</string>
     <string name="UserName">jdoe</string>
     <string name="Password">welcome1</string>
+    <string name="NewCustomer">New Customer</string>
+    <string name="ViewCustomers">View Customers</string>
+    <string name="NewSession">New Session</string>
+    <string name="UpcomingSessions">Upcoming Sessions</string>
+    <string name="ManageText">Manage customers and sessions</string>
+    <string name="NewCustomerText">New Customer</string>
+    <string name="FirstName">Enter your first name</string>
+    <string name="LastName">Enter your last name</string>
+    <string name="Age">Enter your age</string>
+    <string name="CreditCard">Enter your credit card number</string>
+    <string name="TakePhoto">Take Photo</string>
+    <string name="NewCustomerSubmit">Submit</string>
+    <string name="ViewCustomer">View Customers</string>
+    <string name="CustomerName">PLACEHOLDER FOR CUSTOMER NAME</string>
+    <string name="CustomerNameSession">Enter the name of the customer</string>
+    <string name="DateNewSession">Enter the date (EX: March 3rd 2018)</string>
+    <string name="CustomerNewSessionStart">Enter the start time(EX: 4:30PM)</string>
+    <string name="CustomerNewSessionEnd">Enter the end time</string>
+    <string name="CustomerNewSessionPrice">Enter the price</string>
+    <string name="CustomerNewSessionPay">Submit and Pay</string>
+    <string name="CreditCardNewSession">Enter their credit card number</string>
+    <string name="NewSessionText">New Session</string>
+    <string name="ViewSessionsText">View Sessions</string>
+    <string name="ViewSessionsDate">MARCH 3rd 2018(PLACEHOLDER DATE)</string>
+    <string name="ViewSessionsDate2">MARCH 4th 2018(PLACEHOLDER DATE)</string>
+    <string name="ViewSessionsDate3">MARCH 5th 2018(PLACEHOLDER DATE)</string>
+    <string name="ViewSessionsLabel">Finished</string>
+    <string name="EnterSignature">Enter Signature</string>
+    <string name="SignatureFinish">Finish</string>
+    <string name="UserOutput"> </string>
 </resources>
 
