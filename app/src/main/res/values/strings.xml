@@ -37,5 +37,7 @@
     <string name="EnterSignature">Enter Signature</string>
     <string name="SignatureFinish">Finish</string>
     <string name="UserOutput"> </string>
+    <string name="LogOff">Log off</string>
+    <string name="logoff_title">Logging you off</string>
 </resources>
 
