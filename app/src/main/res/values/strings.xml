@@ -13,8 +13,7 @@
     <string name="UpcomingSessions">Upcoming Sessions</string>
     <string name="ManageText">Manage customers and sessions</string>
     <string name="NewCustomerText">New Customer</string>
-    <string name="FirstName">Enter your first name</string>
-    <string name="LastName">Enter your last name</string>
+    <string name="Name">Enter your first and last name</string>
     <string name="Age">Enter your age</string>
     <string name="CreditCard">Enter your credit card number</string>
     <string name="TakePhoto">Take Photo</string>
@@ -39,5 +38,6 @@
     <string name="UserOutput"> </string>
     <string name="LogOff">Log off</string>
     <string name="logoff_title">Logging you off</string>
+    <string name="Delete_Customer">Delete</string>
 </resources>
 

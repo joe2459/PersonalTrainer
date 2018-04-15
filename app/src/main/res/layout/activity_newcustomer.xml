@@ -21,19 +21,11 @@
         android:text="@string/NewCustomerText" />
 
     <EditText
-        android:id="@+id/FirstNameEditText"
+        android:id="@+id/NameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/FirstName"
+        android:hint="@string/Name"
         android:layout_marginTop="30dp"
-        />
-
-        <EditText
-        android:id="@+id/LastNameEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/LastName"
-        android:layout_marginTop="10dp"
         />
 
     <EditText

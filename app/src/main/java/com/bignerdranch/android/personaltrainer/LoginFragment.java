@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class LoginFragment extends Fragment {
@@ -32,6 +33,12 @@ public class LoginFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+
+
+        String data = getActivity().getIntent().getStringExtra("data");
+
+        name = data;
+
     }
 
 
@@ -80,14 +87,15 @@ public class LoginFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        String data = getActivity().getIntent().getStringExtra("data");
         View inf = inflater.inflate(R.layout.fragment_login, container, false);
         TextView tv = (TextView) inf.findViewById(R.id.UserOutput);
-        tv.setText("Logged in as: " + data);
+        tv.setText("Logged in as: " +  name);
 
         return inf;
 
 
     }
+
+
 
 }
