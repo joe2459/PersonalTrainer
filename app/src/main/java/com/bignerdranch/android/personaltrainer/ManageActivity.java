@@ -3,11 +3,15 @@ package com.bignerdranch.android.personaltrainer;
 import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import java.io.File;
+import java.util.UUID;
 
 public class ManageActivity extends AppCompatActivity {
 
@@ -18,6 +22,20 @@ public class ManageActivity extends AppCompatActivity {
     public TextView tv;
     public String name2;
 
+    private UUID mId;
+
+    public UUID getId() {
+        return mId;
+    }
+
+    public String getPhotoFileName() {
+        return "IMG_" + getId().toString() + ".jpg";
+    }
+
+    public File getPhotoFile() {
+        File filesDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+        return new File(filesDir, getPhotoFileName());
+    }
 
 
     @Override
@@ -63,6 +81,7 @@ public class ManageActivity extends AppCompatActivity {
 
 
     }
+
 
     public interface OnCallbackReceived {
         public void Update();

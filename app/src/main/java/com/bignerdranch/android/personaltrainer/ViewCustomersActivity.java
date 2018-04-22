@@ -21,6 +21,7 @@ public class ViewCustomersActivity extends AppCompatActivity {
 
     UserDBHelper mDatabaseHelper;
     private ListView mListView;
+    private int uid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,7 @@ public class ViewCustomersActivity extends AppCompatActivity {
 
         populateListView();
     }
+
 
     private void populateListView() {
         Cursor data = mDatabaseHelper.getData();

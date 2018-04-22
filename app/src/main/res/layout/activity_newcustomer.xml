@@ -20,6 +20,17 @@
         android:textSize="20sp"
         android:text="@string/NewCustomerText" />
 
+    <ImageView
+        android:id="@+id/capturePhotoImageView"
+        android:layout_above="@+id/photoButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerInside"
+        android:cropToPadding="true"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center"
+        />
+
     <EditText
         android:id="@+id/NameEditText"
         android:layout_width="match_parent"
